@@ -1,0 +1,19 @@
+version: '3'
+services:
+  project1:
+    build:
+      context: ./project1
+    ports:
+      - "3001:3001"
+
+  project2:
+    build:
+      context: ./project2
+    ports:
+      - "3002:3002"
+
+  project3:
+    build:
+      context: ./project3
+    ports:
+      - "3003:3003"
